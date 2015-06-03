@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title><![CDATA[mathalyte]]></title><description><![CDATA[do you feel like your maths lessons just don't help? i've got an alternative way of looking at the subject. i can't guarantee it'll help, but it'll certainly be different from what you're used to.]]></description><link>http://127.0.0.1:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Mon, 01 Jun 2015 12:32:34 GMT</lastBuildDate><atom:link href="http://127.0.0.1:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[what's in a killer question?]]></title><description><![CDATA[<p>Suppose you were faced with a rather daunting question. Let's use this one which supposedly left many Singaporean children and parents crying in 2009 after the PSLE:  </p>
+
+<p id="latex">Jim bought some chocolates and gave half to Ken. Ken bought some sweets and gave half to Jim. When Jim ate 12 sweets</p>]]></description><link>http://127.0.0.1:2368/the-big-question/</link><guid isPermaLink="false">33171b48-34e6-4b1f-b924-e09a88d9c05d</guid><dc:creator><![CDATA[amph]]></dc:creator><pubDate>Sat, 30 May 2015 06:36:29 GMT</pubDate><content:encoded><![CDATA[<p>Suppose you were faced with a rather daunting question. Let's use this one which supposedly left many Singaporean children and parents crying in 2009 after the PSLE:  </p>
+
+<p id="latex">Jim bought some chocolates and gave half to Ken. Ken bought some sweets and gave half to Jim. When Jim ate 12 sweets while Ken ate 18 chocolates, the ratio of Jim's number of sweets to number of chocolates is 1:7 while the ratio of Ken's number of sweets to number of chocolates is 1:4. How many sweets did Ken buy?</p>
+
+<p>Even some adults take a little while to toss this problem around in their heads before they can fully understand it. There's a certain intimidating  vibe to it; let's try to find out why.</p>
+
+<ul>
+<li><p><strong>Complexity</strong>. There's just a lot of things going on in the question. Not only are there chocolates and sweets, we need to keep track of who the candies belong to, how many were eaten, which ones were eaten, etc.</p></li>
+<li><p><strong>Unintuitiveness</strong>. A common problem with mathematics is that  it doesn't appeal to most people's common sense. They just tossed two random ratios 1:7 and 1:4 at us, and remotely related them to the act of eating candies. What the hell are these numbers supposed to mean? This is what people mean when they say "maths just doesn't apply to the real world"; they can't see the meaning of the numbers, they're just so isolated from what most kids have experienced in real life.</p></li>
+<li><p><strong>Wordiness</strong>. If someone just threw a problem with just numbers to you, it's much easier to deal with; either manipulate the equation or just do the calculations. With word problems, there's an additional barrier in that first you have to understand what the question is asking, before you actually start on doing any math at all.</p></li>
+<li><p><strong>Tricks</strong>. So you've finally busted through most of the question. You understand that before eating, both Jim and Ken had the same number of chocolates and sweets since they gave each other half. You know that even after Ken ate 18 chocolates, he still had four times as many chocolates as he had sweets. You figure out how many sweets he has. You proudly answer the question. But when the results come back, there's a depressing little cross where a tick should be. You'd forgotten what the question was asking: how many sweets Ken <strong>bought</strong>, not how many he <strong>had</strong> before they started eating.</p></li>
+</ul>
+
+<p>Let's take a look at another question for another audience. The following question is slightly above A-level (year 12) standard; it uses concepts that most A level students should be familiar with, but applies them in such a way that would leave schools with many angry parents' letters if it were to show up in an exam. </p>
+
+<p>$$\text{Solve the following:} \\ |x+1| - |x| + 3|x-1| -2|x-2| =x+2$$</p>
+
+<p>What's difficult about this one, then?</p>
+
+<ul>
+<li><p><strong>Higher-level application</strong>. Most year 12 students would be immediately familiar with the absolute value function. $|x| = x\text{ if }x \geq 0, -x \text{ if } x \leq 0$. But putting this many absolute values together tells a different story; each different absolute value term splits the cases again and again, generating a new case each time. So now you have to deal with when $x \leq -1$, when $-1 \leq x \leq 0$, etc. As logical as the extension of this concept may sound, it can prove to be quite a challenge to people simply because it's unfamiliar, especially if they've always come from the "grind practice questions = success" school of thought; it's easy to see why novelty would throw them off.</p></li>
+<li><p><strong>Tedium</strong>. There's no easy way to deal with all those absolute values at once. You have to individually split into all 5 cases of x. A particular problem with tedious questions is that the longer they take or the more steps they need, the more likely people are to make careless mistakes.</p></li>
+</ul>
+
+<h2 id="sohowdowedealwithallthis">so how do we deal with all this?</h2>
+
+<p>The question to ask yourself if you don't immediately understand a question is, <strong>what exactly is it that I don't get about the question?</strong> If it's a general feeling of being lost while trying to read the question, maybe complexity or wordiness is the problem. In this case, the solution would be to <strong>break it down</strong> and take it step by step, translating the question to something <strong>you're more comfortable with</strong>. Using the PSLE question as an example, let's just first look at what each sentence (or half sentence) is saying, and basically express each sentence as an equation (since that's what I'm personally more familiar with).</p>
+
+<ul>
+<li><p>But first, ask yourself <strong>what do you want to end up with?</strong> Give it a fixed variable. I want to end up with the number of sweets Ken bought (i.e. what the question wants) so I'm going to call that x.</p></li>
+<li><p><a id="latex">Jim bought some chocolates and gave half to Ken. Ken bought some sweets and gave half to Jim.</a> At the end of this sentence, Jim and Ken both have the same number of chocolates and sweets. Let's call the number of chocolates $\frac{y}{2}$ and the number of sweets $\frac{x}{2}$ (following from the previous point).</p></li>
+<li><a id="latex">When Jim ate 12 sweets, the ratio of Jim's number of sweets to number of chocolates is 1:7.</a> In other words, $\frac{y}{2} - 12 = \frac{1}{7} \times \frac {x}{2}$.</li>
+<li><a id="latex">When Ken ate 18 chocolates, the ratio of Ken's number of sweets to number of chocolates is 1:4.</a> Or, $\frac{y}{2} = \frac{1}{4} \times (\frac{x}{2}-18)$.</li>
+</ul>
+
+<p>After that, eliminating $\frac{y}{2}$ and solving the equation is quite simple.</p>]]></content:encoded></item></channel></rss>
